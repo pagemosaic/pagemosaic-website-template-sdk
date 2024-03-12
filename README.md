@@ -1,2 +1,1 @@
-# pagemosaic-website-template-sdk
-Page Mosaic Website Template SDK
+# Page Mosaic Website Template SDK

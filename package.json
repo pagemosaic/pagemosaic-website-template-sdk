@@ -1,0 +1,28 @@
+{
+  "name": "pagemosaic-website-template-sdk",
+  "version": "1.0.0",
+  "description": "Page Mosaic Website Template SDK",
+  "author": "Alex Pust <apustovalov@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "commonjs",
+  "scripts": {
+    "build-dev": "rollup -c",
+    "build": "NODE_ENV=production rollup -c",
+    "watch": "chokidar 'pages/**/*.html' 'src/index.css' -c 'npm run build-dev'",
+    "start": "node ./server.js"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "0.5.10",
+    "autoprefixer": "10.4.18",
+    "cssnano": "6.1.0",
+    "chokidar-cli": "3.0.0",
+    "del-cli": "5.1.0",
+    "express": "4.18.3",
+    "postcss": "8.4.35",
+    "postcss-import": "16.0.1",
+    "rollup": "4.13.0",
+    "rollup-plugin-postcss": "4.0.2",
+    "tailwindcss": "3.4.1"
+  }
+}
